@@ -24195,33 +24195,24 @@ class rM {
 }
 const oM = [{
         id: 0,
-        name: "Join",
-        description: "Group managment tool to optimize workflows",
-        image: "images/projects/join.jpg",
-        tags: ["javascript", "backend", "html", "css"],
-        liveview: "https://join.david-hckh.com/",
-        github: "https://github.com/davidhckh/join",
-        alt: "Group management tool to optimize workflows portfolio project"
+        name: "Digital Library",
+        description: "A digital library system for college",
+        image: "images/projects/digitallibrary.png",
+        tags: ["nextjs", "backend", "html", "css", "node", "mongodb"],
+        liveview: "https://digital-library-ccet.vercel.app/",
+        github: "https://github.com/AdithyanSPillaiOfficial/Digital-Library",
+        alt: "Digital Library System for Our College"
     }, {
         id: 1,
-        name: "Pokedex",
-        description: "A collection and description of all 898 Pokémon",
-        image: "images/projects/pokedex.jpg",
-        tags: ["javascript", "api", "html", "css"],
-        liveview: "https://js-pokedex-virid.vercel.app/",
-        github: "https://github.com/davidhckh/pokedex",
-        alt: "pokedex design detailed design portfolio project"
+        name: "EXamin",
+        description: "A simple exam software for conducting online MCQ exams",
+        image: "images/projects/examin.png",
+        tags: ["react", "api", "html", "css", "node", "mongodb"],
+        liveview: "https://examin-topaz.vercel.app",
+        github: "https://github.com/AdithyanSPillaiOfficial/Exam-Software",
+        alt: "Examin Exam Software"
     }, {
         id: 2,
-        name: "Sharkie",
-        description: "JavaScript based jump-and-run game",
-        image: "images/projects/sharkie.jpg",
-        tags: ["javascript", "html", "css"],
-        liveview: "https://sharkie-game.vercel.app/",
-        github: "https://github.com/davidhckh/sharkie-game",
-        alt: "javascript based jump-and-run game portfolio project"
-    }, {
-        id: 3,
         name: "Portfolio 2022",
         description: "My portfolio website, you're probably looking at right now.",
         image: "images/projects/portfolio.jpg",
@@ -24233,14 +24224,6 @@ const oM = [{
             alt: "cssda icon site of the day"
         }],
         twitter: "https://twitter.com/DavidHckh"
-    }, {
-        id: 4,
-        name: "Jelly Battle",
-        description: "Play as Jelly and fight against three other Jellys in a multiplayer free-for-all game",
-        image: "images/projects/jelly-battle.jpg",
-        tags: ["webgl", "javascript", "socketio", "html", "css"],
-        twitter: "https://twitter.com/DavidHckh",
-        alt: "work in progress portfolio project jelly battle strategy game flash multiplayer"
     }],
     aM = {
         html: '<div class="work-item-tag" style="background: white; border: 1px solid #7C8594; color: #7C8594">HTML</div>',
@@ -24249,7 +24232,11 @@ const oM = [{
         socketio: '<div class="work-item-tag" style="background: #21BAEB;">Socket.IO</div>',
         webgl: '<div class="work-item-tag" style="background: #5A69EC;">WebGL</div>',
         api: '<div class="work-item-tag" style="background: #CA49F8;">API</div>',
-        backend: '<div class="work-item-tag" style="background: #8433CC;">Backend</div>'
+        backend: '<div class="work-item-tag" style="background: #8433CC;">Backend</div>',
+        nextjs: '<div class="work-item-tag" style="background: #221e29;">Next JS</div>',
+        mongodb: '<div class="work-item-tag" style="background: #39a839;">Mongo DB</div>',
+        node : '<div class="work-item-tag" style="background: #c26eff;">Node JS</div>',
+        react : '<div class="work-item-tag" style="background: #425f63;">React</div>'
     };
 class lM {
     constructor() {
